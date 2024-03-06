@@ -826,6 +826,7 @@ html,body{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 7vh;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -833,6 +834,11 @@ html,body{
         -ms-flex-align: center;
             align-items: center;
     width: 90%;
+}
+#footer-heading:hover i{
+    -webkit-transform: translate(-60%,20%);
+        -ms-transform: translate(-60%,20%);
+            transform: translate(-60%,20%);
 }
 #page6-container h1{
     position: absolute;
@@ -879,6 +885,12 @@ html,body{
     color: transparent;
     font-weight: 200;
     -webkit-text-stroke: 1px #fff;
+    -webkit-transform: translate(-130%,20%);
+        -ms-transform: translate(-130%,20%);
+            transform: translate(-130%,20%);
+    -webkit-transition: all ease 2s;
+    -o-transition: all ease 2s;
+    transition: all ease 2s
 }
 #footer-section{
     width: 80%;
