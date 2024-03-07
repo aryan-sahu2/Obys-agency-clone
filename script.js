@@ -105,6 +105,8 @@ function cursorAnimation(){
         duration: 1,
     });
 
+    Shery.makeMagnet("#nav-part2 h4");
+
     const videoContainer = document.querySelector("#video-container");
     const videoCursor = document.querySelector("#play-btn-crsr");
     const video= document.querySelector('#video-container video')
@@ -167,8 +169,7 @@ function cursorAnimation(){
         })
       })
 
-      
-    Shery.makeMagnet("#nav-part2 h4", { });
+    
 }
 
 function footerAnimation() {
